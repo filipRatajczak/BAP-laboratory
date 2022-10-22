@@ -1,0 +1,8 @@
+CREATE TABLE clients (
+	id INT NOT NULL AUTO_INCREMENT,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
+	address VARCHAR(100),
+	city VARCHAR(50),
+	PRIMARY KEY (id)
+);
